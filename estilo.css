@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css?family=Cousine:400,400i,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,400i,600i,700,900&display=swap');
+
+
+body{
+	font-family: 'Poppins', monospace;
+	font-weight: 400;
+  color:#45037A;
+  background-color: #F3EBFC  ;
+}
+
+h1{
+	font-weight: 400;	
+}
+
+h2,h3,h4,h5,h6,strong{
+	font-family: 'Poppins', monospace;
+	font-weight: 700;	
+}
+
+.display-1{
+	font-weight: 700;
+	word-break: break-all;	
+	color: white;
+}
+
+.display-1:nth-child(1){
+   	background: linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.6)), url(https://i.pinimg.com/564x/17/2a/51/172a514966232e7847751ce08d37648c.jpg) no-repeat;
+  	background-size:cover;
+  	background-position: center center;
+  	-webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;	
+}
+
+.display-1:nth-child(2){
+   	background: linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.6)), url(https://i.pinimg.com/564x/be/56/73/be567392b0a4ac08732293913be803d9.jpg) no-repeat;
+  	background-size:cover;
+  	background-position: center center;
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;	
+}
+
+.display-1:nth-child(3){
+   	background: linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.6)), url(https://i.pinimg.com/564x/19/b9/e3/19b9e35c8ae9435ed5612209b28ecd5e.jpg) no-repeat;
+  	background-size:cover;
+  	background-position: center center;
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;	
+}
+
+.display-1:nth-child(4){
+   	background: linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.6)), url(https://i.pinimg.com/564x/66/e7/0f/66e70fb8e55de69e48b578cfab3c920a.jpg) no-repeat;
+  	background-size:cover;
+  	background-position: center center;
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;	
+}
+
+.display-1:nth-child(5){
+    background: linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.6)), url(https://i.pinimg.com/564x/17/2a/51/172a514966232e7847751ce08d37648c.jpg) no-repeat;
+    background-size:cover;
+    background-position: center center;
+    -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;  
+}
+
+nav{
+  background-color:#F3EBFC;
+}
+a#especial{
+	font-style: italic;
+	font-weight: 400;
+	color:#45037A;
+	text-transform: lowercase;
+}
+
+a#especial:before{
+	content:"+ ";
+}
+
+button.navbar-toggler{
+	border:none;
+}
